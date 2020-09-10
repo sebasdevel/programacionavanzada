@@ -3,10 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Variables</title>
-    <script src="JS/variables.js"></script>
+    <title>Operations Arithmetics</title>
+    <!-- <script src="JS/variables.js"></script> -->
+    <script src="JS/operArit.js"></script>
 </head>
 <body>
-
+    <h1>Form Operations Arithmetics</h1>
+    <form action="">
+        <label for="nOne">Number One</label>
+        <input type="text" name="nOne" id="nOne">
+        <br><br>
+        <label for="nTwo">Number Two</label>
+        <input type="text" name="nTwo" id="nTwo">
+        <br><br>
+        <button type="button" onclick="sum()">Sum</button>
+        <br><br>
+        <button type="button" onclick="rest()">Rest</button>
+        <br><br>
+        <button type="button" onclick="mult()">Multiplication</button>
+        <br><br>
+        <button type="button" onclick="division()">Division</button>
+        <p>Result:
+            <textarea name="resultOperation" id="resultOperation" cols="10" rows="2"></textarea>
+        </p>
+    </form>
+    <hr>
+    <form>
+        <h1>Triangle Area</h1>
+        <label for="base">Base</label>
+        <input type="text" id="base" name="base">
+        <br><br>
+        <label for="base">Height</label>
+        <input type="text" id="height" name="height">
+        <br><br>
+        <button type="button" onclick="areaTriangle()">Calculate</button>
+        <p>Result:
+            <textarea name="resultAreaTriangle" id="resultAreaTriangle" cols="10" rows="1"></textarea>
+        </p>
+        <h1>Circle Area</h1>
+        <label for="base">Radio</label>
+        <input type="text" id="radio" name="radio">
+        <br><br>
+        <button type="button" onclick="areaCircle()">Calculate Area</button>
+        <p>Result:
+            <textarea name="resultAreaCircle" id="resultAreaCircle" cols="10" rows="1"></textarea>
+        </p>
 </body>
 </html>
