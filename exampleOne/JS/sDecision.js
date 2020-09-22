@@ -48,3 +48,62 @@ function messageTwo(){
 
     alert(messageDecision);
 }
+
+// function price() {
+//     let productName = document.getElementById("productName").value;
+//     let price = 0;
+
+//     const PRODUCT_ONE = "A";
+//     const PRODUCT_TWO = "B";
+//     const PRODUCT_THREE = "C";
+
+    // if (productName.toUpperCase() == PRODUCT_ONE) {
+    //     price = 2000;
+    // } else {
+    //     if(productName == PRODUCT_TWO){
+    //         price = 5000;
+    //     }
+    //     else{
+    //         if(productName.toUpperCase() == PRODUCT_THREE){
+    //             price = 7000;
+    //         }
+    //         else{
+    //             alert("Introduce a value valid.")
+    //         }
+    //     }
+    // }
+    
+    // alert(price);
+
+//     switch (productName.toUpperCase()) {
+//         case PRODUCT_ONE:
+//             price = 2000;
+//             break;
+//         case PRODUCT_TWO:
+//             price = 5000;
+//             break;
+//         case PRODUCT_THREE:
+//             price = 7000;
+//             break;
+//         default:
+//             alert("Introduce a value valid.");
+//             break;
+//     }
+
+//     alert(price);
+//     alert(Int1.NumberFormat().format(price));
+    
+// }
+
+let switchFocus = interruptor => {
+    let pic;
+
+    // if (interruptor == 0){
+    //     alert("OFF");
+    // }else{
+    //     alert("ON");
+    // }
+
+    let mensaje = (interruptor == 0) ? "OFF" : "ON"
+    alert(mensaje)
+}
